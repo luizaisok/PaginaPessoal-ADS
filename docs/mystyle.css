@@ -60,16 +60,16 @@ a {
     color: inherit;
 }
 
+.linkcontato{
+    margin-bottom: 1%;
+}
+
 a:hover{
     border: solid;
     border-width: 2px;
     border-color: #ffffff;
     border-radius: 15px;
     padding: 1%;
-}
-
-.linkcontato{
-    margin-bottom: 1%;
 }
 
 h2 {
