@@ -1,13 +1,36 @@
 body {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    background-color: #afab50;
+    background-image: url("fundo.png");
+    background-size: cover;
 }
 
 .titulo {
-    margin: auto;
     margin-top: 4%;
     text-align: center;
-    background-color: #657a38;
+}
+
+h1 {
+    background-color: #d2ee91;
+    padding: 1%;
+
+    margin-left: 40%;
+    margin-right: 40%;
+    margin-bottom: 1%;
+
+    border: solid;
+    border-width: 5px;
+    border-color: #ffffff;
+    border-radius: 15px;
+}
+
+.tituloprofissional{
+    background-color: #ffffff;
+    padding: 1%;
+    margin-left: 35%;
+    margin-right: 35%;
+    border-radius: 15px;
+    margin-bottom: 1%;
+    margin-top: 1%;
 }
 
 .listanavegacao {
@@ -15,24 +38,50 @@ body {
     margin: 0;
     padding: 0;
     text-align: center;
+    background: linear-gradient(to right, #ffffff, #d2ee91, #ffffff, #d2ee91, #ffffff);
+    padding: 1%;
+    margin-left: 10%;
+    margin-right: 10%;
+    border-radius: 15px;
 }
 
 .itemnavegacao {
     display: inline;
+    margin-left: 1%;
+    margin-right: 1%;
 }
 
 .navegacao {
     margin-bottom: 2%;
 }
 
-.tituloapresentacao {
-    display: flex;
-    align-content: center;
-    justify-content: center;
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+a:hover{
+    border: solid;
+    border-width: 2px;
+    border-color: #ffffff;
+    border-radius: 15px;
+    padding: 1%;
+}
+
+h2 {
+    border-left: solid;
+    border-width: 5px;
+    border-color: #14810e;
+    padding-left: 1%;
 }
 
 section {
-    border-bottom: solid;
+    background-color: #d2ee91;
+    padding: 1%;
+    margin-left: 25%;
+    margin-right: 25%;
+    border-radius: 15px;
+    margin-bottom: 1%;
 }
 
 .apresentacaoparagrafo {
