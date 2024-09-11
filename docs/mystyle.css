@@ -84,3 +84,20 @@ section {
 #dados {
     border-bottom: none;
 }
+
+.listacontato{
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+}
+
+.itemcontato{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.imgcontato{
+    width: 10%;
+    margin-right: 2%;
+}
