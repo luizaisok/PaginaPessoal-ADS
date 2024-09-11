@@ -81,6 +81,10 @@ section {
     border-radius: 15px;
 }
 
+.itemformacao{
+    margin-left: 2%
+}
+
 #dados {
     border-bottom: none;
 }
