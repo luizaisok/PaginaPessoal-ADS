@@ -9,7 +9,7 @@ body {
     list-style: none;
     display: flex;
     justify-content: center;
-    margin: 0;
+    padding-left: 0%; /* porque se botou padding sozinho??? */
 }
 
 a {
@@ -69,14 +69,8 @@ section {
     margin-right: 2%;
 }
 
-.apresentacao{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding-left: 20%;
-}
-
 .fotoeu{
+    display: block;
     width: 40%;
     border-radius: 15px;
 }
@@ -97,11 +91,11 @@ section {
 
 .itemcontato{
     display: flex;
-    justify-content: space-around;
     text-align: center;
+    justify-content: center;
 }
 
 .imgcontato{
-    width: 10%;
+    width: 6%;
     margin-right: 2%;
 }
