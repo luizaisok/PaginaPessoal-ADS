@@ -1,15 +1,18 @@
 body {
-    font-family: "Pixelify Sans", sans-serif;
+    font-family: "Comfortaa", sans-serif;;
     background-image: url("fundo.png");
-    background-size:cover;
+    background-size: cover;
     background-attachment: fixed;
 }
 
 .listanavegacao {
     list-style: none;
+    font-weight: bold;
     display: flex;
     justify-content: center;
     padding-left: 0%; /* porque se botou padding sozinho??? */
+    background-color: rgba(213, 255, 242, 0.8);
+    border-radius: 15px;
 }
 
 a {
@@ -19,6 +22,12 @@ a {
 
 .itemnavegacao {
     padding: 2%;
+}
+
+.linknavegacao:hover{
+    border-bottom: solid;
+    border-width: 1%;
+    border-color: white;
 }
 
 .titulo {
@@ -34,16 +43,18 @@ a {
     border-radius: 15px;
 }
 
+h1{
+    font-family: "Pixelify Sans", sans-serif;
+}
+
 .estrela {
     width: 20px;
     margin: 1%;
 }
 
-.linkcontato{
-    margin-bottom: 1%;
-}
-
 h2 {
+    font-family: "Pixelify Sans", sans-serif;
+
     border-left: solid;
     border-width: 5px;
     border-color: #ffffff;
@@ -63,16 +74,6 @@ section {
     background-color: #ffffff;
     padding: 2%;
     border-radius: 10px;
-}
-
-.apresentacaoparagrafo {
-    margin-right: 2%;
-}
-
-.fotoeu{
-    display: block;
-    width: 40%;
-    border-radius: 15px;
 }
 
 .itemformacao{
@@ -96,6 +97,36 @@ section {
 }
 
 .imgcontato{
-    width: 6%;
+    width: 5%;
     margin-right: 2%;
+}
+
+@media screen and (max-width: 1350px) {
+    .titulo{
+        margin-left: 25%;
+        margin-right: 25%;
+    }
+
+    section{
+        margin-left: 15%;
+        margin-right: 15%;
+    }
+}
+
+@media screen and (max-width: 1220px) {
+    .itemnavegacao{
+        padding: 1%;
+    }
+}
+
+@media screen and (max-width: 1050px) {
+    .itemnavegacao{
+        display: flex;
+        text-align: center;
+        align-items: center;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    
 }
