@@ -125,8 +125,32 @@ section {
         text-align: center;
         align-items: center;
     }
+
+    .imgcontato{
+        width: 6%;
+        margin-right: 2%;
+    }
+}
+
+@media screen and (max-width: 845px) {
+    .imgcontato{
+        width: 3%;
+    }
+
+    .listacontato{
+        display: left;
+        align-items: center;
+    }
+
+    .itemcontato{
+        padding-bottom: 1%;
+    }
 }
 
 @media screen and (max-width: 700px) {
-    
+    .listanavegacao{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        justify-items: center;
+    }
 }
