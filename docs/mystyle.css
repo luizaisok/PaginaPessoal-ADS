@@ -138,7 +138,7 @@ section {
     }
 
     .listacontato{
-        display: left;
+        display: left; /* da um jeito nisso */
         align-items: center;
     }
 
