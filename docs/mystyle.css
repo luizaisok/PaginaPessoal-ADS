@@ -58,7 +58,8 @@ a {
 }
 
 h1{
-    font-family: "Pixelify Sans", sans-serif;
+    font-family: "Micro 5", sans-serif;
+    font-style: normal;
 }
 
 .estrela {
@@ -67,7 +68,9 @@ h1{
 }
 
 h2 {
-    font-family: "Pixelify Sans", sans-serif;
+    font-family: "Micro 5", sans-serif;
+    font-weight: 400;
+    font-style: normal;
 
     border-left: solid;
     border-width: 5px;
