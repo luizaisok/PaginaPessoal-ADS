@@ -48,6 +48,12 @@ a {
     border-color: white;
 }
 
+#pessoal{
+    border: solid;
+    border-color: white;
+    border: 1px;
+}
+
 .titulo {
     margin-top: 3%;
     text-align: center;
