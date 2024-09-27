@@ -51,7 +51,7 @@ a {
 #pessoal{
     border: solid;
     border-color: white;
-    border: 1px;
+    border-width: 5%;
 }
 
 .titulo {
