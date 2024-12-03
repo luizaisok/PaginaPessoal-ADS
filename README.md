@@ -1,5 +1,2 @@
-# Site pessoal
-### - Curso: Análise e Desenvolvimento de Sistemas
-### - Matéria: Desenvolvimento Web
-
-Página pessoal/currículo para o segundo semestre de ADS para a matéria de Desenvolvimento Web da professora Juliana.
+Trabalho para a matéria de Desvenvolvimento Web (Professora Juliana)
+Objetivo: Desenvolver uma página pessoal.
